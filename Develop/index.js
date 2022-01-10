@@ -10,10 +10,9 @@ const config = require('./package.json');
 console.log(logo(config).render());
 
 
-// linking to page where the README is developed 
 const generatePage = require('./utils/generateMarkdown.js');
 
-// array of questions for user
+
 const questions = () => {
     // using inquirer to prompt questions to user 
     return inquirer.prompt([
