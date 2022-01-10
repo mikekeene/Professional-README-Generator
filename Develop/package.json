@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.3.1",
+    "lorem-ipsum-cli": "^1.0.0",
+    "utils": "^0.3.1"
   }
 }
