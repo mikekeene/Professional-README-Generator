@@ -1,6 +1,14 @@
 // require modules 
 const fs = require('fs'); 
 const inquirer = require('inquirer'); 
+const util = require("util");
+const path = require("path");
+const OUTPUT_DIR = path.resolve(__dirname, "output");
+const outputPath = path.join(OUTPUT_DIR, "README.md");
+const logo = require('asciiart-logo');
+const config = require('./package.json');
+console.log(logo(config).render());
+
 
 // linking to page where the README is developed 
 const generatePage = require('./utils/generateMarkdown.js');
